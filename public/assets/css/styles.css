@@ -1,0 +1,13 @@
+.gifList {
+    list-style: none;
+}
+
+.gifItem {
+    position: relative;
+    float: left;
+}
+
+.gifItem img {
+    height: 200px;
+    width: auto;
+}

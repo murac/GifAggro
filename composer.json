@@ -1,0 +1,5 @@
+{
+    "require": {
+        "dready92/php-on-couch": "dev-master"
+    }
+} 

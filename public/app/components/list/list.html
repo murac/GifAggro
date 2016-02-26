@@ -1,0 +1,21 @@
+<div>
+	<div class="row">
+		<h1 ng-bind="vm.title"></h1>
+	</div>
+	<div class="row">
+		<div class="col-md-12">
+			<ul class="gifList">
+				<li class="gifItem" ng-repeat="gif in vm.gifList">
+					<img ng-if="gif.value.ext == 'gif'" ng-src="{{ gif | imgUrl }}">
+					<video ng-if="gif.value.ext != 'gif'" width="320" height="240" controls>
+						<source ng-src="{{ gif | imgUrl }}" type="video/webm">
+						<source ng-src="{{ gif | imgUrl }}" type="video/mp4">
+						Your browser does not support the video tag.
+					</video>
+					<!--<p>Name: {{ gif.value.name }}</p>-->
+					<!--<p>Description: {{ gif.value.desc }}</p>-->
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>

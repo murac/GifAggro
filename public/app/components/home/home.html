@@ -1,0 +1,22 @@
+<div>
+	<div class="row">
+		<div class="col-sm-12 text-center">
+			<form class="form-inline">
+				<div class="form-group form-group-lg">
+					<input class="form-control" type="text" id="formGroupInputLarge" placeholder="GIF URL">
+					<input class="btn btn-lg btn-primary" type="submit" value="Submit">
+				</div>
+			</form>
+		</div>
+	</div>
+	<hr>
+	<div class="jumbotron text-center">
+		<h1 ng-bind="vm.title"></h1>
+		<p>This page demonstrates <span class="text-danger">nested</span> views.</p>
+
+		<a ui-sref=".list2" class="btn btn-primary">List</a>
+		<a ui-sref=".paragraph" class="btn btn-danger">Paragraph</a>
+	</div>
+
+	<div ui-view></div>
+</div>

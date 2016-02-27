@@ -11,7 +11,7 @@ function gifService($http, $log) {
     };
 
     function getAll() {
-        return $http.get('/GifAggro/public/api.php?a=all')
+        return $http.get('http://www.murac.com/api.php?a=all')
             .then(getAllComplete)
             .catch(getAllFailed);
 
@@ -26,7 +26,7 @@ function gifService($http, $log) {
     }
 
     function createNew(doc) {
-        return $http.post('/GifAggro/public/api.php?a=new', doc)
+        return $http.post('http://www.murac.com/api.php?a=new', doc)
             .then(createNewComplete)
             .catch(createNewFailed);
 

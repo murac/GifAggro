@@ -1,5 +1,5 @@
 <?php
-require_once "../vendor/dready92/php-on-couch/lib/couch.php";
+require_once __DIR__."/../vendor/dready92/php-on-couch/lib/couch.php";
 require_once "../vendor/dready92/php-on-couch/lib/couchClient.php";
 require_once "../vendor/dready92/php-on-couch/lib/couchDocument.php";
 

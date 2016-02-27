@@ -13,7 +13,7 @@
     <link href="public/assets/css/styles.css" rel="stylesheet">
     <link href="public/assets/libs/angular-ui-notification.min.css" rel="stylesheet">
 </head>
-<body ng-app="gifAggro" ng-controller="HomeCtrl">
+<body ng-app="gifAggro">
 <header>
     <nav class="navbar navbar-default">
         <div class="container-fluid">

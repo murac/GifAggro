@@ -6,7 +6,7 @@ require_once "../vendor/dready92/php-on-couch/lib/couchDocument.php";
 if ( $_SERVER['REQUEST_METHOD'] == 'POST' && empty($_POST) )
     $_POST = json_decode(file_get_contents('php://input'), true);
 
-$couch_dsn = "http://localhost:5984/";
+$couch_dsn = "http://murac.com:5984/";
 $couchdb = "gifs";
 
 $client = new couchClient($couch_dsn, $couchdb);

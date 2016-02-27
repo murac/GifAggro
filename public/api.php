@@ -1,4 +1,6 @@
 <?php
+header("Access-Control-Allow-Origin: http://localhost:5984");
+
 require_once "../vendor/dready92/php-on-couch/lib/couch.php";
 require_once "../vendor/dready92/php-on-couch/lib/couchClient.php";
 require_once "../vendor/dready92/php-on-couch/lib/couchDocument.php";

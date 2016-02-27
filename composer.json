@@ -1,0 +1,5 @@
+{
+    "require": {
+        "dready92/PHP-on-Couch": "^1.0"
+    }
+}

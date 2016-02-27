@@ -1,5 +1,5 @@
 <?php
-header("Access-Control-Allow-Origin: http://murac.com:5984");
+header("Access-Control-Allow-Origin: http://murac.com");
 
 require_once "../vendor/dready92/php-on-couch/lib/couch.php";
 require_once "../vendor/dready92/php-on-couch/lib/couchClient.php";

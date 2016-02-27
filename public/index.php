@@ -9,9 +9,9 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
     <link rel="icon" type="image/x-icon" href="favicon.ico"/>
-    <link href="public/assets/libs/bootstrap.min.css" rel="stylesheet">
-    <link href="public/assets/css/styles.css" rel="stylesheet">
-    <link href="public/assets/libs/angular-ui-notification.min.css" rel="stylesheet">
+    <link href="assets/libs/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/styles.css" rel="stylesheet">
+    <link href="assets/libs/angular-ui-notification.min.css" rel="stylesheet">
 </head>
 <body ng-app="gifAggro">
 <header>
@@ -61,25 +61,25 @@
 
 <!-- All scripts meant to fix IE --><!-- build:js(.) scripts/oldieshim.js --><!--[if lt IE 9]>
 <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-<script src="publicassets/libs/json3.min.js"></script><![endif]--><!-- endbuild -->
+<script src="assets/libs/json3.min.js"></script><![endif]--><!-- endbuild -->
 
-<script src="public/assets/libs/angular.min.js"></script>
-<script src="public/assets/libs/angular-ui-router.min.js"></script>
-<script src="public/assets/libs/angular-ui-notification.min.js"></script>
-<script src="public/assets/libs/jquery.min.js"></script>
+<script src="assets/libs/angular.min.js"></script>
+<script src="assets/libs/angular-ui-router.min.js"></script>
+<script src="assets/libs/angular-ui-notification.min.js"></script>
+<script src="assets/libs/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="public/assets/libs/bootstrap.min.js"></script>
-<script src="public/assets/libs/underscore-min.js"></script>
+<script src="assets/libs/bootstrap.min.js"></script>
+<script src="assets/libs/underscore-min.js"></script>
 
 <!-- Add all application javascript files in this block -->
-<script src="public/app/app.module.js"></script>
-<script src="public/app/app.routes.js"></script>
+<script src="app/app.module.js"></script>
+<script src="app/app.routes.js"></script>
 
-<script src="public/app/shared/gifService/gifService.js"></script>
-<script src="public/app/shared/filters/imgUrl.js"></script>
-<script src="public/app/components/list/list.js"></script>
-<script src="public/app/components/add/add.js"></script>
-<script src="public/app/components/home/home.js"></script>
+<script src="app/shared/gifService/gifService.js"></script>
+<script src="app/shared/filters/imgUrl.js"></script>
+<script src="app/components/list/list.js"></script>
+<script src="app/components/add/add.js"></script>
+<script src="app/components/home/home.js"></script>
 
 </body>
 </html>
